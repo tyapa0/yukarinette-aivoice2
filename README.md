@@ -3,6 +3,7 @@ A.I.VOICE2 を ゆかりねっと で制御するためのプラグインです�
 
 # Features
 * テストリリースです。APIが公開されるまでの暫定リリースとなります。
+* 現在はコーダー向けの知見集となります。`Yukari\YukariManager.cs`が本体です
 
 # Installation
 1. [Releaseページ](https://github.com/tyapa0/yukarinette-aivoice/releases/) から最新バージョンの `Aivoice2Control_vX.X.zip` をダウンロードします
