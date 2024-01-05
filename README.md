@@ -3,7 +3,7 @@ A.I.VOICE2 を ゆかりねっと で制御するためのプラグインです�
 
 # Features
 * テストリリースです。APIが公開されるまでの暫定リリースとなります。
-* 現在はコーダー向けの知見集となります。`Yukari\YukariManager.cs`が本体です
+* 現在はコーダー向けの知見集となります。`Yukari\YukariManager.cs`が制御本体です
 
 # Installation
 1. [Releaseページ](https://github.com/tyapa0/yukarinette-aivoice/releases/) から最新バージョンの `Aivoice2Control_vX.X.zip` をダウンロードします
@@ -15,7 +15,7 @@ A.I.VOICE2 を ゆかりねっと で制御するためのプラグインです�
    ファイルを右クリック→プロパティで表示し、セキュリティを許可してください。  
    ![kyoka.png.](/image/kyoka.png "kyoka")
 
-5. ゆかりねっと を起動したら 音声認識 の欄に「A.I.VOICE」が追加されているのでチェックを入れます。
+5. ゆかりねっと を起動したら 音声認識 の欄に「A.I.VOICE2」が追加されているのでチェックを入れます。
 
 以上
 
@@ -25,7 +25,7 @@ A.I.VOICE2 を ゆかりねっと で制御するためのプラグインです�
 
 # Knowledge
 * FriendlyではVisualTreeが取得できない(おそらくUWPなためFriendlyの実装がない)
-* コントロールはUIAutomationでほぼ取得できる
+* コントロールはUIAutomationでAutomationElementがほぼ取得できる
 * UIのフォーカスは.core側のUIAutomatでのみ設定できる(そのためFlaUI.UIA3を使用)
 * Editのtextは取得できるが、書き換えができない(RangeValueのSetValueが機能しない)
 
