@@ -26,7 +26,7 @@ A.I.VOICE2 を ゆかりねっと で制御するためのプラグインです�
 # Knowledge
 * FriendlyではVisualTreeが取得できない(おそらくUWPなためFriendlyの実装がない)
 * コントロールはUIAutomationでAutomationElementがほぼ取得できる
-* UIのフォーカスは.core側のUIAutomatでのみ設定できる(そのためFlaUI.UIA3を使用)
+* UIのフォーカスは.NET FrameworkではなくCOMオブジェクト側のUIAutomatでのみ設定できる(そのためFlaUI.UIA3を使用)
 * Editのtextは取得できるが、書き換えができない(RangeValueのSetValueが機能しない)
 
 # Author
