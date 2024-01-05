@@ -2,7 +2,7 @@
 A.I.VOICE2 を ゆかりねっと で制御するためのプラグインです。
 
 # Features
-* テストリリースです。APIが公開されるまでの暫定リリースとなります。
+* テストリリースです。A.I.VOICE2のAPIが公開されるまでの暫定リリースとなります。
 * 現在はコーダー向けの知見集となります。`Yukari\YukariManager.cs`が制御本体です
 
 # Installation
@@ -24,7 +24,7 @@ A.I.VOICE2 を ゆかりねっと で制御するためのプラグインです�
 * 再生のたびにWindowフォーカスが持って行かれてしまう。(フォーカスが移動して困るゲームと同時使用できない)
 
 # Knowledge
-* FriendlyではVisualTreeが取得できない(おそらくUWPなためFriendlyの実装がない)
+* FriendlyではVisualTreeが取得できない(おそらくUWPなためFriendlyの実装がない?)
 * コントロールはUIAutomationでAutomationElementがほぼ取得できる
 * UIのフォーカスは.NET FrameworkではなくCOMオブジェクト側のUIAutomatでのみ設定できる(そのためFlaUI.UIA3を使用)
 * Editのtextは取得できるが、書き換えができない(RangeValueのSetValueが機能しない)
